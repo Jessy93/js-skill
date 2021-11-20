@@ -56,7 +56,7 @@ function setTime(value) {
 
 function finishGame(params) {
     timeEl.parentNode.classList.add('hide')
-    board.innerHTML =`<h1>Ваш счёт: <span class="primary">${score}</span> </h1>`
+    board.innerHTML =`<h1>Your Score: <span class="primary">${score}</span> </h1>`
 }
 
 function createRandomCircle() {
